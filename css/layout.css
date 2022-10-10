@@ -1,0 +1,26 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+body {
+    background-color: #012043;
+}
+
+header {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid orange 1px;
+    box-shadow: 1px 1px 4px 0.1px orange;
+}
+
+header > h1 {
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}

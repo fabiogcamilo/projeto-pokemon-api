@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pokedex.css">
+    <script src="js/pokedex.js"></script>
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <header>
+        <img src="imgs/TargetTrust.png" alt="">
+    </header>
+    <main>
+        <div class="search-container">
+            <input value="1" type="text" name="" id="idPokemon">
+            <button id="botaoBusca" onclick="buscarPokemonEAlterarTela()">Buscar</button>
+        </div>
+        <div class="pokedex">
+            <div class="pokedex__botao"></div>
+            <div class="pokedex__audio"></div>
+            <div id="pokedex_visor" class="pokedex__visor">
+            </div>
+            <div class="pokedex__infos">
+                <span id="infoPokemonNumero" class="infos__numero"></span>
+                <span id="infoPokemonNome" class="infos__nome"></span>
+                <div id="infoPokemonTipos" class="infos__tipos">
+                </div>
+            </div>
+            <div class="pokedex__botoes">
+                <a target="_blank" href="https://pokeapi.co" class="botoes__cruz">+</a>
+                <a target="_blank" href="https://pokeapi.co" class="botoes__circulo circulo__buttonA">A</a>
+                <a target="_blank" href="https://pokeapi.co" class="botoes__circulo circulo__buttonB">B</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
